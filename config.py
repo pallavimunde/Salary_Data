@@ -1,0 +1,6 @@
+
+PORT_NO = 8080
+
+MODEL_PATH = r" "
+JSON_PATH = r" "
+

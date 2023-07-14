@@ -1,0 +1,1 @@
+{"Gender": {"Male": 1, "Female": 0, "Other": 2}, "Education_Level": {"High School": 1, "Bachelor's": 2, "Master's": 3, "PhD": 4}, "Col": ["Age", "Gender", "Education_Level", "Experience"]}

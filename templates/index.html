@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Salary Prediction </title>
+</head>
+
+<body style="background-color: rgb(147, 191, 223);">
+
+    <h1>-- Data-Scientist's _  Salary Prediction -- </h1>
+    <form method="POST" action="/Salary_Pred">
+        <br>
+
+        <B><label>Age - </label></B>
+        <input type = "text" name = "Age">
+        </select>
+
+        <br>
+        <br>
+
+        <B><label>Gender - </label></B>
+        <select name = "Gender">
+            <option value = "Male">Male</option>
+            <option value = "Female">Female</option>
+
+        </select>
+
+        <br>
+        <br>
+
+        <label>Experience as a Data Scientists </label><br>
+        <label><B> No. of Year's - </B></label>
+        <input type = "text" name = "Experience">
+        </select>
+
+        <br>
+        <br>
+
+        <B><label>Education_Level - </label></B>
+        <select name = "Education_Level">
+            <option value = "PhD">PhD</option>            
+            <option value = "Bachelor's">Bachelor's</option>
+            <option value = "Master's">Master's</option>
+            <option value = "High School">High School</option>
+            
+        </select>
+        <br>
+        <br>
+
+        <input type = "submit" value="PREDICT">
+
+        <br>
+
+        <h2><p><i>Your Minimum  Predicted Salary  is : <b>{{ prediction }} /--   Per Month </b>  </p></h2></form></i>
+        <h2> Enjoy The Journey .. Thank You !! </h2>
+
+
+    </form>
+
+
+</body>
+</html>
+
